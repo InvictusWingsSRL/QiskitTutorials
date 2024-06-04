@@ -11,8 +11,6 @@ import time
 import matplotlib
 import matplotlib.pyplot as plt
 import ipywidgets as wd
-S_simulator = Aer.backends(name='statevector_simulator')[0]
-M_simulator = Aer.backends(name='qasm_simulator')[0]
 
 S_simulator = Aer.backends(name='statevector_simulator')[0]
 M_simulator = Aer.backends(name='qasm_simulator')[0] 
